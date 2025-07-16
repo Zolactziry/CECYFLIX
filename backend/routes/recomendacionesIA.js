@@ -116,7 +116,7 @@ router.post('/', async (req, res) => {
       }
     ];
 
-    const modelToUse = "OpenAI"; // Asegúrate de que este sea el modelo deseado
+    const modelToUse = "google/gemma-3n-e2b-it:free"; // Asegúrate de que este sea el modelo deseado
 
     const payload = {
       model: modelToUse,
