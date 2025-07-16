@@ -116,7 +116,7 @@ router.post('/', async (req, res) => {
       }
     ];
 
-    const modelToUse = "google/gemini-pro"; // Asegúrate de que este sea el modelo deseado
+    const modelToUse = "OpenAI"; // Asegúrate de que este sea el modelo deseado
 
     const payload = {
       model: modelToUse,
